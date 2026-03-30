@@ -1,41 +1,35 @@
-# AWS Projects Laboratory 🚀
+# AWS Cloud Engineering Labs ☁️
 
-This directory serves as a specialized environment for building, testing, and documenting cloud infrastructure solutions on **Amazon Web Services (AWS)**. It focuses on implementing scalable, secure, and automated architectures following industry best practices.
-
----
-
-## 📂 Directory Structure
-
-### [01-aws-static-web-cicd-amplify](./01-aws-static-web-cicd-amplify)
-A hands-on lab focused on modern web application deployment using Managed Services and **CI/CD** workflows.
-* **Key Services:** AWS Amplify, Route 53, IAM.
-* **Focus:** Automated deployments, domain management, and cloud hosting optimization.
+This directory is a collection of hands-on laboratories and infrastructure projects built on **Amazon Web Services (AWS)**. Each subdirectory represents a standalone project designed to demonstrate cloud architecture patterns, automation, and DevOps best practices.
 
 ---
 
-## 🛠️ Core Tech Stack
-The projects within this folder typically leverage the following tools and services:
+## 📂 Laboratory Structure
 
-* **Infrastructure as Code (IaC):** Terraform / AWS CloudFormation.
-* **CI/CD & DevOps:** AWS Amplify Console, GitHub Actions, CodePipeline.
-* **Compute:** AWS Lambda, EC2, ECS/EKS.
-* **Storage & Database:** Amazon S3, DynamoDB, RDS.
-* **Security:** IAM Roles & Policies, Secrets Manager.
+Each project in this folder is self-contained and includes:
+* **Documentation:** A dedicated `README.md` with architecture diagrams and technical details.
+* **Infrastructure:** Code-based solutions using **IaC** (Terraform/CloudFormation) or AWS Managed Services.
+* **Automation:** Integrated **CI/CD** pipelines and deployment scripts.
 
 ---
 
-## 🚀 Getting Started
-1.  **Navigate to a Project:** Each subdirectory contains its own specific technical documentation and deployment steps.
-2.  **Prerequisites:** Ensure you have the **AWS CLI** configured with the appropriate IAM credentials.
-3.  **Deployment:** Follow the instructions in the internal `README.md` of each lab to provision the infrastructure.
+## 🛠️ Common Tech Stack & Tools
+
+Across these labs, the following services and methodologies are frequently implemented:
+
+* **Compute:** Lambda (Serverless), EC2, ECS, and EKS.
+* **Networking:** VPC, Route 53, CloudFront, and API Gateway.
+* **Storage & Data:** S3, DynamoDB, and RDS.
+* **DevOps:** AWS Amplify, CodePipeline, and GitHub Actions.
+* **Security:** IAM (Least Privilege), Secrets Manager, and KMS.
 
 ---
 
-## 🎯 Learning Objectives
-* Mastering **Serverless** architectures and event-driven design.
-* Implementing **Infrastructure as Code (IaC)** for reproducible environments.
-* Setting up robust **Observability** and monitoring for cloud resources.
-* Enforcing the **Principle of Least Privilege** using AWS IAM.
+## 🚀 How to Explore
+
+1.  **Browse the Subdirectories:** Explore the folders to find specific use cases (e.g., Static Web Hosting, Microservices, Observability).
+2.  **Read Individual Docs:** Every lab contains its own setup guide and deployment instructions.
+3.  **Prerequisites:** Ensure you have the **AWS CLI** configured and the necessary permissions before attempting to deploy any resources.
 
 ---
 *Maintained by [lucasgm94](https://github.com/lucasgm94)*
