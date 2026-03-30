@@ -1,35 +1,36 @@
-# AWS Cloud Engineering Labs ☁️
+# ☁️ AWS Projects Laboratory
 
-This directory is a collection of hands-on laboratories and infrastructure projects built on **Amazon Web Services (AWS)**. Each subdirectory represents a standalone project designed to demonstrate cloud architecture patterns, automation, and DevOps best practices.
-
----
-
-## 📂 Laboratory Structure
-
-Each project in this folder is self-contained and includes:
-* **Documentation:** A dedicated `README.md` with architecture diagrams and technical details.
-* **Infrastructure:** Code-based solutions using **IaC** (Terraform/CloudFormation) or AWS Managed Services.
-* **Automation:** Integrated **CI/CD** pipelines and deployment scripts.
+This directory contains a collection of practical laboratories focused on **Amazon Web Services (AWS)**. Each project is designed to demonstrate core cloud engineering concepts, from resource provisioning to automated CI/CD workflows.
 
 ---
 
-## 🛠️ Common Tech Stack & Tools
-
-Across these labs, the following services and methodologies are frequently implemented:
-
-* **Compute:** Lambda (Serverless), EC2, ECS, and EKS.
-* **Networking:** VPC, Route 53, CloudFront, and API Gateway.
-* **Storage & Data:** S3, DynamoDB, and RDS.
-* **DevOps:** AWS Amplify, CodePipeline, and GitHub Actions.
-* **Security:** IAM (Least Privilege), Secrets Manager, and KMS.
+#### **Key Implementation Steps (Modules):**
+This laboratory is broken down into modular steps to ensure best practices:
+* **S3 Configuration:** Secure bucket creation for static hosting.
+* **Security & IAM:** Implementation of Bucket Policies (JSON) for controlled access.
+* **CI/CD Integration:** Connecting GitHub repositories with AWS Amplify.
+* **Automated Deployment:** Configuring build settings and deployment triggers.
+* **Networking & SSL:** Verifying HTTPS certificates and domain configuration.
+* **Resource Management:** Safe cleanup and deletion procedures for S3 resources.
 
 ---
 
-## 🚀 How to Explore
+## 🛠️ Technical Focus & Services
 
-1.  **Browse the Subdirectories:** Explore the folders to find specific use cases (e.g., Static Web Hosting, Microservices, Observability).
-2.  **Read Individual Docs:** Every lab contains its own setup guide and deployment instructions.
-3.  **Prerequisites:** Ensure you have the **AWS CLI** configured and the necessary permissions before attempting to deploy any resources.
+In this laboratory series, I work with the following AWS services and concepts:
+
+* **Hosting & Delivery:** AWS Amplify, Amazon S3.
+* **Security:** Identity and Access Management (IAM), Bucket Policies.
+* **DevOps:** GitHub Integration, Automated CI/CD Pipelines.
+* **Networking:** SSL/TLS Verification.
+
+---
+
+## 📖 How to Explore these Labs
+
+1.  **Follow the Numbering:** Projects and steps are numbered (01, 02, etc.) to follow a logical learning path.
+2.  **Check Screenshots:** Each module includes a `screenshots/` folder documenting the AWS Management Console configuration for visual reference.
+3.  **Review the Code:** Explore the JSON policies and configuration files provided in each sub-directory.
 
 ---
 *Maintained by [lucasgm94](https://github.com/lucasgm94)*
